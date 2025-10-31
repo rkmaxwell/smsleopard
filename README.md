@@ -7,7 +7,11 @@ A simple Laravel wrapper for the SMS Leopard API — send SMS messages easily fr
 
 ## Install via Composer:
 ```bash
+
+## Get with composer
 composer require rkmaxwell/smsleopard
+
+## publish config 
 
 php artisan vendor:publish --tag=smsleopard-config
 
