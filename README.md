@@ -18,7 +18,7 @@ SMS_LEOPARD_SECRET=your_api_secret
 SMS_LEOPARD_SENDER=SMSLEOPARD
 
 ## Now use in your project 
-```bash
+
 use rkmaxwell\smsleopard\Facades\SmsLeopard;
 
 SmsLeopard::send(
@@ -26,6 +26,7 @@ SmsLeopard::send(
     message: 'Hello from SMS Leopard!'
 );
 
+# ^
 ## Get in touch
 Author: @rkmaxwell
 
