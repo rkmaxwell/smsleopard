@@ -1,0 +1,23 @@
+{
+  "name": "rkmaxwell/smsleopard",
+  "description": "SMS Leopard API integration for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "rkmaxwell\\smsleopard\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "rkmaxwell\\smsleopard\\SmsLeopardServiceProvider"
+      ],
+      "aliases": {
+        "SmsLeopard": "rkmaxwell\\smsleopard\\Facades\\SmsLeopard"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
