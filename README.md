@@ -6,7 +6,7 @@ A simple Laravel wrapper for the SMS Leopard API — send SMS messages easily fr
 ## Installation
 
 ## Install via Composer:
-
+```bash
 composer require rkmaxwell/smsleopard
 
 php artisan vendor:publish --tag=smsleopard-config
@@ -18,7 +18,7 @@ SMS_LEOPARD_SECRET=your_api_secret
 SMS_LEOPARD_SENDER=SMSLEOPARD
 
 ## Now use in your project 
-
+```bash
 use rkmaxwell\smsleopard\Facades\SmsLeopard;
 
 SmsLeopard::send(
@@ -33,4 +33,4 @@ Email: rk@anymobile.co.ke
 
 GitHub: https://github.com/rkmaxwell
 
-Website: anymobile.co.ke
+Website: https://anymobile.co.ke
